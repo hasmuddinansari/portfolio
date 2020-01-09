@@ -1,0 +1,37 @@
+.fixed {
+  background: fixed;
+  position: fixed;
+  width: 100%;
+}
+.transparent {
+  background: transparent;
+}
+h1 {
+  font-family: "Carter One", cursive;
+}
+h2 {
+  font-family: "Aclonica", sans-serif;
+}
+
+p {
+  font-family: "Baskervville", serif;
+}
+.margin {
+  margin-left: 1px;
+}
+
+.header {
+  background: rgb(116, 114, 255);
+  color: white;
+  padding: 7px;
+  border-radius: 22px 6px;
+}
+
+@media screen and (max-width: 390px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}
