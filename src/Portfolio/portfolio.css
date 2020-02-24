@@ -27,9 +27,17 @@
   transition: 0.2s;
   transform:scale(1.05) ;
 }
+.hover_me {
+  width:20rem;
+  height: auto;
+}
+
 .hover_me:hover{
-  transition:0.2s;
+  transition:0.4s;
   cursor: pointer;
-  border:1px solid black;
-  box-shadow: 4px 1px 12px lightgrey;
+  transform:scale(1.01);
+  box-shadow: 1px 1px 12px lightgrey;
+}
+.change_font {
+  font-family: 'Prata', ;
 }

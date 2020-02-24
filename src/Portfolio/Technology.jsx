@@ -17,7 +17,7 @@ export default function Technology() {
     ]
     return (
         <div className="container p-3">
-        <h1 className="text-primary p-3 text-center bg-light">Tech Stack</h1>
+        <h1 className="text-primary p-3 text-center display-4 bg-light">Tech Stack</h1>
         <div className="row p-3 border bg-light shadow-set">
             {links.map(li=>{
                 return <img src={li} key={li}  className="img_resize img-fluid col-lg-3 col-md-4 col-6"/>

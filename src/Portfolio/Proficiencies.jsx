@@ -2,14 +2,14 @@ import React from 'react'
 import "./portfolio.css"
 
 const Proficiencies = () => {
-    const prof = [{img:"/images/react.png", title:"React App", desc:"React js and React Redux"},
+    const prof = [{img:"/images/react.png", title:"Frontend", desc:"React js and React Redux"},
     {img:"/images/back.png", title:"Backend", desc:"Python, Flask, SQL"},
     {img:"/images/data.png", title:"Data Structures", desc:"Arrays, Stacks and Queues, Algorithms"}]
 
     
     return (
-        <div className="container text-center p-5 bg-light">
-             <h1 className="text-primary">Proficiencies</h1>
+        <div className="container text-center p-3 bg-light">
+             <h1 className="text-primary display-4 bg-light">Proficiency</h1>
             <div className="row justify-content-center">
                
                 {prof.map(pro=>{

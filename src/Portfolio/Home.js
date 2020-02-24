@@ -22,7 +22,7 @@ class Home extends Component {
               <h1 id="poppin">Hasmuddin Ansari</h1>
 
               <h3 className="text-success">Full Stack Developer</h3>
-              <p className="d-flex flex-wrap h4 my-3">
+              <p className="d-flex flex-wrap h4 my-3 change_font">
               A dedicated and passionate full stack developer
               trained and skilled in MERN stack at Masai school,
               looking forward to join a startup where I can enhance 
