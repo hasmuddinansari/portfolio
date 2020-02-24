@@ -6,19 +6,27 @@
 .transparent {
   background: transparent;
 }
-h1 {
-  font-family: "Gayathri", sans-serif;
-}
-h2 {
-  font-family: "Aclonica", sans-serif;
+a {
+  text-decoration: none;
 }
 
+h1, h3 {
+  font-family: 'barlow';
+}
+.img_div {
+  border:10px solid rgb(0, 0, 0, 0.1);
+  overflow: hidden;
+  width:auto;
+  height: 21rem;
+  border-radius: 50%;
+}
 p {
-  font-family: "Baskervville", serif;
+  font-family: 'Signika Negative';
   font-size: 20px;
   display: flex;
   flex-wrap: wrap;
 }
+
 .margin {
   margin-left: 1px;
 }

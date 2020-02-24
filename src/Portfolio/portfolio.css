@@ -1,0 +1,29 @@
+.img_resize {
+  width: auto;
+  height: 7rem;
+  margin-top:3rem;
+
+}
+.shadow-set {
+  box-shadow: 3px 0px 7px grey;
+}
+.download_btn {
+  border:1px solid black;
+  padding: 1rem;
+  border-radius:15px 25px;
+  color:black;
+  text-align: center;
+  font-size:16px;
+  font-weight:bold;
+  justify-self: center;
+  width: 10rem;
+  align-self: center;
+
+}
+
+.download_btn:hover {
+  cursor: pointer;
+  background-color: darkcyan;
+  transition: 0.2s;
+  transform:scale(1.05) ;
+}
