@@ -15,6 +15,9 @@ h2 {
 
 p {
   font-family: "Baskervville", serif;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .margin {
   margin-left: 1px;
@@ -25,6 +28,9 @@ p {
   color: white;
   padding: 7px;
   border-radius: 22px 6px;
+}
+#poppin{
+  font-family: 'Berkshire Swash', ;
 }
 
 @media screen and (max-width: 390px) {
