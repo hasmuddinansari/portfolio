@@ -27,3 +27,9 @@
   transition: 0.2s;
   transform:scale(1.05) ;
 }
+.hover_me:hover{
+  transition:0.2s;
+  cursor: pointer;
+  border:1px solid black;
+  box-shadow: 4px 1px 12px lightgrey;
+}
