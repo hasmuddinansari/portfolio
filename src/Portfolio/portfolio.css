@@ -89,5 +89,6 @@
 .size-inc {
   width:20rem;
   height: auto;
+  transform: scale(2);
 
 }
