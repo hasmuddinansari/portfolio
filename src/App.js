@@ -5,6 +5,7 @@ import Nav from "./Portfolio/Nav";
 import Home from "./Portfolio/Home";
 import Technology from "./Portfolio/Technology";
 import Proficiencies from "./Portfolio/Proficiencies"
+import Projects from "./Portfolio/Projects"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Technology/>
       <Proficiencies/>
+      <Projects/>
     </Router>
   );
 }

@@ -41,10 +41,31 @@
   box-shadow: 1px 1px 12px lightgrey;
 }
 #change_font {
-  font-family: 'Prata', ;
   font-family: 'Gabriela', ;
 
 }
 #signature {
   font-family: 'Meie Script', ;
+}
+.mycard {
+    width:20rem;
+    height: auto;
+}
+.card:hover {
+  transition: 0.4s linear;
+  box-shadow: 4px 1px 12px lightgrey;
+  cursor: pointer;
+  transform: scale(1.02);
+
+}
+.bdr {
+  border-top: 2px solid black;
+}
+.img-resize {
+  width:2rem;
+  height:2rem;
+}
+.img-resize:hover {
+  transform: rotateZ(360deg);
+  transition: 2s linear;
 }
