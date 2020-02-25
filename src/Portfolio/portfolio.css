@@ -81,6 +81,12 @@
   border:20px solid rgb(216, 216, 221);
 
 }
+h1 {
+  font-family: 'Abril Fatface', ;
+}
+p {
+  font-family: 'Rubik'
+}
 .inside {
   text-align: center;
   padding:20px;
