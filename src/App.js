@@ -6,6 +6,7 @@ import Home from "./Portfolio/Home";
 import Technology from "./Portfolio/Technology";
 import Proficiencies from "./Portfolio/Proficiencies"
 import Projects from "./Portfolio/Projects"
+import Githubs from "./Portfolio/Githubs"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Technology/>
       <Proficiencies/>
       <Projects/>
+      <Githubs/>
     </Router>
   );
 }

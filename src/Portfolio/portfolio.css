@@ -69,3 +69,25 @@
   transform: rotateZ(360deg);
   transition: 2s linear;
 }
+.outside {
+  height:13rem;
+  border:1px solid black;
+  width: 13rem;
+  border-radius: 50%;
+  display: flex;
+  background-color: rgb(114, 114, 255);
+  justify-content: center;
+  align-items: center;
+  border:20px solid rgb(216, 216, 221);
+
+}
+.inside {
+  text-align: center;
+  padding:20px;
+  font-size: 3.3rem;
+}
+.size-inc {
+  width:20rem;
+  height: auto;
+
+}
