@@ -86,9 +86,10 @@
   padding:20px;
   font-size: 3.3rem;
 }
-.size-inc {
-  width:20rem;
-  height: auto;
-  transform: scale(2);
-
+.flx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
 }

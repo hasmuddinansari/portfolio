@@ -9,11 +9,11 @@ const Githubs = () => {
         <div className="container my-4">
             <div className="row justify-content-between" >
                 {cm.map(d=>{
-                    return <div className="col-lg-3 row justify-content-center col-md-6 col-12">
-                        <div className="outside ">
-                            <p className="inside text-white ">{d.num}</p>
+                    return <div className="col-lg-3  flx my-3 col-md-6 col-12">
+                        <div className="outside  ">
+                            <p className="inside text-white">{d.num}</p>
                         </div>
-                        <h4 className="my-2">{d.title}</h4>
+                        <h4 className='text-center my-2'>{d.title}</h4>
                     </div>
                 })}
             <div className="col-12 row justify-content-center my-5">
