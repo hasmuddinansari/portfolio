@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Meie+Script&display=swap');
+
 .img_resize {
   width: auto;
   height: 7rem;
@@ -38,6 +40,11 @@
   transform:scale(1.01);
   box-shadow: 1px 1px 12px lightgrey;
 }
-.change_font {
+#change_font {
   font-family: 'Prata', ;
+  font-family: 'Gabriela', ;
+
+}
+#signature {
+  font-family: 'Meie Script', ;
 }

@@ -10,7 +10,7 @@ class Home extends Component {
   }
   render() {
     return (
-      <div className="container pt-4">
+      <div id="about" className="container pt-4">
         <div className="row p-1">
           <div
             data-wow-duration="0.6s"

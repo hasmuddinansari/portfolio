@@ -8,7 +8,7 @@ const Proficiencies = () => {
 
     
     return (
-        <div className="container text-center p-3 bg-light">
+        <div id="proficiency" className="container text-center p-3 ">
              <h1 className="text-primary display-4 bg-light">Proficiency</h1>
             <div className="row justify-content-center">
                
