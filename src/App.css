@@ -9,7 +9,10 @@
 a {
   text-decoration: none;
 }
-
+p {
+font-family: monospace;
+font-size: 1.5rem
+}
 h1, h3 {
   font-family: 'barlow';
 }
@@ -20,13 +23,6 @@ h1, h3 {
   height: 21rem;
   border-radius: 50%;
 }
-p {
-  font-family: 'sans-serif', ;
-  font-size: 20px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .margin {
   margin-left: 1px;
 }
