@@ -4,8 +4,10 @@
   margin-top:3rem;
 
 }
-.shadow-set {
-  box-shadow: 3px 0px 7px grey;
+.shadow-set:hover {
+  transition: 0.4s;
+  box-shadow: 3px 3px 5px gainsboro;
+  cursor: pointer;
 }
 .download_btn {
   border:1px solid black;
@@ -77,6 +79,13 @@
   justify-content: center;
   align-items: center;
   border:20px solid rgb(216, 216, 221);
+}
+.outside:hover {
+  cursor: progress;
+  transform: rotateY(360deg);
+  transform-origin: center;
+  border:20px solid rgb(255, 154, 154);
+
 
 }
 h1 {
