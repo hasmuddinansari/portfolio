@@ -68,16 +68,16 @@ class Home extends Component {
                   </p>
                 </div>
               </div>
-              <div className="col-md-6 col-12 order-md-2  order-1 row justify-content-center ">
-                <div className="col-md-8 col-8  d-flex flex-column justify-content-center">
-                  <div className="profile">
+              <div className="col-md-6 col-12 order-md-2  order-1 d-flex flex-column justify-content-center ">
+                <div className="d-flex flex-column justify-content-center align-items-center ">
+                  <div className="profile ">
                     <img
                       src="/images/portfolio1.jpg"
                       className="img-fluid mb-3 p-1"
                       alt=""
                     />
                   </div>
-                  <a className="download_btn mb-3">Download CV</a>
+                  <a className="download_btn mb-3 mt-3">Download CV</a>
                 </div>
               </div>
             </div>
