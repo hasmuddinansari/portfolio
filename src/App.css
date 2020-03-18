@@ -47,3 +47,9 @@ h1, h3 {
   }
 }
 
+.headings{
+  background-color: rgb(128, 168, 241);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:white;
+  
+}

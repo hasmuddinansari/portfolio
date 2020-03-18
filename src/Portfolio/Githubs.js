@@ -17,8 +17,8 @@ const Githubs = () => {
                     <div className="row justify-content-between" >
                         {cm.map(d => {
                             return <div className="col-lg-3 flx my-3 col-md-6 col-12">
-                                <div className="outside  ">
-                                    <p className="inside text-white">{d.num}</p>
+                                <div className="outside   ">
+                                    <p className="inside">{d.num}</p>
                                 </div>
                                 <h4 className='text-center my-2'>{d.title}</h4>
                             </div>

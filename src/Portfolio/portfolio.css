@@ -4,10 +4,9 @@
   margin-top:3rem;
 
 }
-.shadow-set:hover {
+.shadow-set {
   transition: 0.4s;
   box-shadow: 3px 3px 5px gainsboro;
-  cursor: pointer;
 }
 .download_btn {
   border:1px solid black;
@@ -32,14 +31,10 @@
 .hover_me {
   width:20rem;
   height: auto;
-}
-
-.hover_me:hover{
-  transition:0.4s;
-  cursor: pointer;
   transform:scale(1.01);
   box-shadow: 1px 1px 12px lightgrey;
 }
+
 #change_font {
   font-family: 'Gabriela', ;
 
@@ -51,12 +46,10 @@
     width:20rem;
     height: auto;
 }
-.card:hover {
+.card {
   transition: 0.4s linear;
   box-shadow: 4px 1px 12px lightgrey;
-  cursor: pointer;
   transform: scale(1.02);
-
 }
 .bdr {
   border-top: 2px solid black;
@@ -74,19 +67,17 @@
   border:1px solid black;
   width: 13rem;
   border-radius: 50%;
+  color:white;
   display: flex;
-  background-color: rgb(114, 114, 255);
+  background-color: rgb(137, 137, 194);
   justify-content: center;
   align-items: center;
   border:20px solid rgb(216, 216, 221);
 }
 .outside:hover {
-  cursor: progress;
-  transform: rotateY(360deg);
   transform-origin: center;
-  border:20px solid rgb(255, 154, 154);
-
-
+  transition: 1s;
+  border:20px solid rgb(206, 192, 192);
 }
 h1 {
   font-family: 'Abril Fatface', ;
