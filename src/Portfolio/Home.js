@@ -70,11 +70,13 @@ class Home extends Component {
               </div>
               <div className="col-md-6 col-12 order-md-2  order-1 row justify-content-center ">
                 <div className="col-md-8 col-8  d-flex flex-column justify-content-center">
-                  <img
-                    src="/images/profile.jpg"
-                    className="img-fluid rounded-circle border border-dark mb-3 p-1"
-                    alt=""
-                  />
+                  <div className="profile">
+                    <img
+                      src="/images/portfolio1.jpg"
+                      className="img-fluid mb-3 p-1"
+                      alt=""
+                    />
+                  </div>
                   <a className="download_btn mb-3">Download CV</a>
                 </div>
               </div>
