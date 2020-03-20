@@ -6,13 +6,13 @@ const ProjectCard = ({ data }) => {
         <div className="mycard col-lg-4 col-md-6 my-3 col-12 ">
             <div className="card">
                 <div className="p-2">
-                    <img src={data.img} className="img-fluid" />
-                    <h4 className="mx-2 my-2 text-primary">{data.title}</h4>
+                    <img src={data.img} className="img-fluid border" />
+                    <h4 className="mx-2 my-2 text-primary bg-light border text-center">{data.title}</h4>
                     <p className="mx-2">{data.desc}</p>
                     <div className="row p-3">
                         {data.tech.map(ic => {
                             return <div className="col-2">
-                                <img src={ic} className="img-resize" />
+                                <img title={ic.slice(7)} src={ic} className="img-resize" />
                             </div>
                         })}
                     </div>

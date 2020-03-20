@@ -73,7 +73,7 @@ class Home extends Component {
                   <div className="profile ">
                     <img
                       src="/images/portfolio1.jpg"
-                      className="img-fluid mb-3 p-1"
+                      className="img-fluid mb-3 p-1 profile_img"
                       alt=""
                     />
                   </div>
