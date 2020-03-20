@@ -77,7 +77,7 @@ class Home extends Component {
                       alt=""
                     />
                   </div>
-                  <a className="download_btn mb-3 mt-3">Download CV</a>
+                  <a style={{ "textDecoration": "None" }} className="download_btn mb-3 mt-3" href="https://drive.google.com/open?id=1kGYe5kaYbhv3Pv5k-y9VlOkTiY9fd1ZZ" target="_blank">Download CV</a>
                 </div>
               </div>
             </div>
