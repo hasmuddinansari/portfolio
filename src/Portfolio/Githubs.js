@@ -24,9 +24,7 @@ const Githubs = () => {
                             </div>
                         })}
                         <div className="col-12 row justify-content-center my-5">
-                            <GitHubCalendar fontSize={25} blockMargin={3} blockSize={33} className="size-inc" username="hasmuddinansari" fullYear={true} color="blue">
-                                <ReactTooltip delayShow={50} html />
-                            </GitHubCalendar>
+                            <img src="/images/githistory.png" className="img-fluid" />
                         </div>
                     </div>
                 </div>}
