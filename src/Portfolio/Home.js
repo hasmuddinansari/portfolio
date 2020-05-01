@@ -30,10 +30,7 @@ class Home extends Component {
 
                   <h3 className="text-success">Full Stack Developer</h3>
                   <p>
-                    A dedicated and passionate full stack developer
-                    trained and skilled in MERN stack at Masai school,
-                    looking forward to join a startup where I can enhance
-                    my skills and can become an asset to the organisation.
+                   A passionate aspiring Full Stack Developer skilled in MERN stack, moulded and shaped by Masai School's numerous training. Actively ready to join in a great lively team of a good start-up to adapt me in any situation and environment with ease and perform the best.
               </p>
 
                   <p>
@@ -77,7 +74,7 @@ class Home extends Component {
                       alt=""
                     />
                   </div>
-                  <a style={{ "textDecoration": "None" }} className="download_btn mb-3 mt-3" href="https://drive.google.com/open?id=1kGYe5kaYbhv3Pv5k-y9VlOkTiY9fd1ZZ" target="_blank">Download CV</a>
+                  <a style={{ "textDecoration": "None" }} className="download_btn mb-3 mt-3" href="https://drive.google.com/open?id=1kGYe5kaYbhv3Pv5k-y9VlOkTiY9fd1ZZ" target="_blank">My Resume</a>
                 </div>
               </div>
             </div>
